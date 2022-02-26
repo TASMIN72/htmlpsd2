@@ -1,0 +1,744 @@
+/*---Common CSS Start--*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root {
+    --main-color: #131E29;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.icon_c {
+    color: #fff;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fa {}
+
+
+/*---Common CSS End--*/
+
+
+/*---Header CSS Start--*/
+
+header {
+    background-color: var(--main-color);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+header .container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+header .logo {
+    color: #fff;
+    position: relative;
+}
+
+header .logo .logo1 {
+    position: absolute;
+    top: -29px;
+    left: 44px;
+}
+
+header .logo .logo2 {
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
+
+header .container .logo {
+    width: 25%;
+}
+
+header .container nav {
+    width: 75%;
+}
+
+header .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .row nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+header .row nav ul li {
+    margin: 5px;
+}
+
+header .row nav ul li a {
+    color: #fff;
+    padding: 30px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+header .row nav ul li a:hover {
+    color: #4BCAFF;
+    background-color: #304861;
+}
+
+
+/*---Header CSS End--*/
+
+
+/*---Banner CSS Start--*/
+
+#banner {
+    overflow: hidden;
+    background: url(../img/banner1.jpg);
+    height: 704px;
+    background-size: cover;
+    background-position: center top;
+    border-bottom: 4px solid #4BCAFF;
+}
+
+#banner .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#banner .banner_photo {
+    width: 40%;
+}
+
+#banner .banner_photo img {
+    width: 100%;
+    position: relative;
+    top: 90px;
+}
+
+#banner .main_content {
+    width: 60%;
+    padding: 65px 0px 0px 35px;
+}
+
+#banner .main_content h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#banner .main_content>p {
+    font-size: 18px;
+    color: #fff;
+    width: 780px;
+    padding: 13px 0;
+}
+
+#banner .button {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+#banner .button .b1 .down {
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    padding: 20px 74px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: all .4s linear;
+    margin-right: 48px;
+}
+
+#banner .button .b1 .down:hover {
+    color: #fff;
+    background: #4BCAFF;
+    font-size: 15px;
+    padding: 20px 74px;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 3px #277697;
+    cursor: pointer;
+}
+
+#banner .button .b2 .learn {
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    padding: 20px 74px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: all .4s linear;
+}
+
+#banner .button .b2 .learn:hover {
+    color: #fff;
+    background: #4BCAFF;
+    font-size: 15px;
+    padding: 20px 74px;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 3px #277697;
+    cursor: pointer;
+}
+
+#banner .banner_logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#banner .banner_logo p {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 19px;
+}
+
+#banner .banner_logo .bl1 {
+    background: #030303;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 19px;
+    text-align: center;
+}
+
+#banner .banner_logo .bl1 a i {
+    line-height: 52px;
+}
+
+#banner .banner_logo .bl2 {
+    background: #030303;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 19px;
+    text-align: center;
+    line-height: 52px;
+}
+
+
+/*---Banner CSS End--*/
+
+
+/*---Services CSS Start--*/
+
+#services {
+    background-color: #F9F9F9;
+    padding: 40px;
+}
+
+#services .service_header {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#services .service_header h2 {
+    font-size: 36px;
+    color: #414042;
+}
+
+#services .service_header p {
+    font-size: 20px;
+    color: #414042;
+}
+
+#services .container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+#services .row {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+#services .row .service_content {
+    width: 25%;
+    text-align: center;
+}
+
+#services .row .service_content .sc_img {
+    background-color: turquoise;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    margin-left: 72px;
+    line-height: 140px;
+}
+
+#services .row .service_content .sc_img i {
+    line-height: 140px;
+}
+
+#services .row .service_content h4 {
+    font-size: 15px;
+    color: #414042;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+#services .row .service_content h4:hover {
+    color: #40E0D0;
+    cursor: pointer;
+}
+
+#services .row .service_content p {
+    font-size: 13px;
+    color: #414042;
+    padding: 0 22px;
+    text-align: center;
+}
+
+
+/*---Services CSS End--*/
+
+
+/*--Gallery CSS Start--*/
+
+#gellary {
+    background-color: #fff;
+    padding: 40px;
+}
+
+#gellary .gallery_header {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#gellary .gallery_header h2 {
+    font-size: 36px;
+    color: #414042;
+}
+
+#gellary .gallery_header p {
+    font-size: 20px;
+    color: #414042;
+}
+
+#gellary .container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+#gellary .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+#gellary .row .gallery_content {
+    width: 25%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#gellary .row .gallery_content .screen {
+    background-color: turquoise;
+    position: relative;
+    width: 100%;
+    height: 205px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#gellary .row .gallery_content .screen::after {
+    position: absolute;
+    content: '';
+    background: rgba(75, 202, 255, .4);
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 8px;
+}
+
+#gellary .row .gallery_content .screen p {
+    background: #000;
+    color: #40E0D0;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#gellary .row .gallery_content .para {
+    font-size: 13px;
+    color: #414042;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/*---Gallery CSS End--*/
+
+
+/*---Slider CSS Start--*/
+
+#slider .container {
+    background: url(../images/fslider.png);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    position: relative;
+}
+
+#slider .container::after {
+    position: absolute;
+    content: '';
+    background: rgba(75, 202, 255, .4);
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#slider .container .row {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#slider .container .row h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+#slider .container .row h2 span {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#slider .container .row p {
+    color: #fff;
+    font-size: 18px;
+    padding: 0 240px;
+    text-align: justify;
+}
+
+
+/*---Slider CSS End--*/
+
+
+/*---Price CSS Start--*/
+
+#price {
+    padding: 60px 0;
+}
+
+#price .container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+#price .container .price_header {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#price .container .price_header h2 {
+    font-size: 36px;
+    color: #414042;
+}
+
+#price .container .price_header p {
+    font-size: 20px;
+    color: #414042;
+}
+
+#price .row {
+    display: flex;
+}
+
+#price .price_content {
+    background-color: #F9F9F9;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+    width: calc(30% - 28px);
+    border: 1px solid #DAD7D7;
+    margin: 0 14px;
+    padding-bottom: 40px;
+}
+
+#price .price_content.premium {
+    width: calc(40% - 28px);
+    margin-top: -20px;
+}
+
+#price .price_content h4 {
+    font-size: 17px;
+    color: #d7d7d7;
+    padding: 30px 0;
+}
+
+#price .price_content .price_tag {
+    background-color: #91C46B;
+}
+
+#price .price_content .p_c_2,
+#price .price_content .b_c_2 {
+    background-color: #4BCAFF;
+}
+
+#price .price_content .p_c_3,
+#price .price_content .b_c_3 {
+    background-color: #FD7C00;
+}
+
+#price .price_content .price_tag p {
+    font-size: 85px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#price .price_content p {
+    font-size: 18px;
+    color: #d7d7d7;
+    padding-bottom: 20px;
+}
+
+#price .price_content p:nth-child(3) {
+    padding-top: 30px;
+}
+
+#price .price_content p:nth-child(5) {
+    padding-bottom: 30px;
+}
+
+#price .price_content a {
+    color: #fff;
+    background-color: #91C46B;
+    padding: 15px 55px;
+    border-radius: 5px;
+}
+
+
+/*---Price CSS End--*/
+
+
+/*---Testimonials CSS Start--*/
+
+#testimonials {
+    padding: 30px 0 60px 0;
+    border-top: 1px solid #E7E7E7;
+}
+
+#testimonials .container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#testimonials .container h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #414042;
+}
+
+#testimonials .container .row {
+    padding: 20px 0;
+}
+
+#testimonials .container .row .test_content {
+    display: flex;
+    align-items: center;
+}
+
+#testimonials .container .row .test-logo {
+    width: 30%;
+    text-align: right;
+}
+
+#testimonials .container .row .test_details {
+    width: 70%;
+}
+
+#testimonials .container .row .test_details p {
+    font-size: 14px;
+    color: #4bcaff;
+    padding: 0 29px 0 29px;
+}
+
+#testimonials .container .row .test_details h4 {
+    font-size: 14px;
+    color: #4bcaff;
+    text-align: right;
+    font-weight: 400;
+    font-style: italic;
+    padding-right: 20px;
+}
+
+
+/*---Testimonials CSS End--*/
+
+
+/*---Download CSS Start--*/
+
+#download {
+    background-color: #414042;
+    padding: 30px 0 40px 0;
+}
+
+#download .container {
+    text-align: center;
+}
+
+#download .container h2 {
+    font-size: 55px;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+#download .container a {
+    font-size: 18px;
+    color: #414042;
+    background-color: #4BCAFF;
+    padding: 16px 42px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 3px #277697;
+    font-weight: 600;
+    transition: all .4s linear;
+}
+
+#download .container a:hover {
+    color: #fff;
+}
+
+
+/*---Download CSS End--*/
+
+
+/*---Map CSS Start--*/
+
+#map {
+    position: relative;
+}
+
+#map .map {
+    height: 680px;
+}
+
+#map .form {
+    position: absolute;
+    background: rgba(109, 209, 248, 0.82);
+    width: 300px;
+    height: 468px;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 20px;
+    top: 135px;
+    bottom: 0;
+    left: 616px;
+    right: 0;
+}
+
+#map .form h2 {
+    font-size: 36px;
+    color: #fff;
+}
+
+#map .form .form_item input {
+    display: block;
+    width: 80%;
+    height: 37px;
+    margin: 20px 20px 20px 30px;
+    border-radius: 8px;
+    text-align: center;
+    border: transparent;
+}
+
+#map .form .form_item textarea {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    height: 120px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: transparent;
+}
+
+#map .form .form_item input:last-child {
+    width: 193px;
+    margin: 0 auto;
+    background: #414042;
+    font-size: 15px;
+    color: #72b3cc;
+}
+
+
+/*---Map CSS End--*/
+
+
+/*---Footer CSS Start--*/
+
+footer {
+    background-color: #414042;
+}
+
+footer .container {
+    width: 1180px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+footer .container .footer_text1 {
+    width: 50%;
+    color: #858588;
+    font-size: 12px;
+}
+
+footer .container .footer_text2 {
+    width: 50%;
+    color: #858588;
+    font-size: 12px;
+    text-align: right;
+}
+
+
+/*---Footer CSS End--*/
+#back-to-up{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: #030303;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 999;
+}
